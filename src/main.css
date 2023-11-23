@@ -1,0 +1,17 @@
+.bg{
+    background-image: url("./Assets/back.webp");
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+
+}
+
+.bg2{
+    background-image: url("./Assets/food.webp");
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+
+}
