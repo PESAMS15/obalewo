@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Nav from './Nav';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Main from './Main';
+import About from './About';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,7 +15,9 @@ root.render(
     <Nav />
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Main />} />
+        <Route path='/' element={<Main />} />   
+        <Route path='/about' element={<About />} />
+
       </Routes>
     </BrowserRouter>
 

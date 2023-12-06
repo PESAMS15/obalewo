@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Nav = () => {
   return (
     <div>
-        <div className="flex md:justify-between justify-center items-center md:h-20  bg-orange-400 md:p-3">
+        <div className="flex md:justify-between justify-center items-center md:h-20  bg-orange-500 md:p-3">
           <div className="flex gap-5 items-center">
           <div>
             <img src={logo} className='h-20' alt="" />

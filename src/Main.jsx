@@ -134,7 +134,7 @@ const Main = () => {
                     <h3>29 Coniston Ave, Purfleet RM19 1PG, UK</h3>
                 </div>
                 <div  className='md:w-1/3 flex flex-col justify-end items-center my-3 md:items-end  text-end'>
-                    <img src={img9} className='mb-10 w-full px-5   ' alt="" />
+                    <img src={img9} className='mb-10 w-1/2 px-5   ' alt="" />
                     <h2 className='my-2'>Tel: 0-787-768-9881</h2>
                     <h2 className='my-2'>Email: Dollp.fash@gmail.com</h2>
                 </div>
