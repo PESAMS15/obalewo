@@ -7,16 +7,19 @@ import Nav from './Nav';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Main from './Main';
 import About from './About';
+import Contact from './Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Nav />
     <BrowserRouter>
+    <Nav />
+  
       <Routes>
         <Route path='/' element={<Main />} />   
         <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<Contact />} />
 
       </Routes>
     </BrowserRouter>

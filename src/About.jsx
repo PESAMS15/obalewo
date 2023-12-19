@@ -4,8 +4,8 @@ import img9 from "./Assets/Pounded Yam.webp"
 
 const About = () => {
   return (
-    <div className='bg-orange-500 pt-16'>
-      <div className=" w-2/5 bg-green-700 py-12 px-20 mx-auto ">
+    <div className='bg-orange-500 pt-16 p-2'>
+      <div className=" md:w-2/5 bg-green-700 py-12 md:px-20 px-5 mx-auto ">
         <h4 className=' font-mono italic font-semibold text-orange-500 text-xl text-center -rotate-6'>About O'belawo</h4>
         <h5 className='text-orange-500 text-center mt-5    font-medium text-lg'>
         At O'belawo, we are passionate about sharing the vibrant and exotic flavors of Nigerian cuisine with the United Kingdom. Our culinary journey is inspired by the rich and diverse world of Nigerian food, with a focus on dishes like jollof rice, pounded yam, and egusi soup. Our chefs use only the freshest ingredients to create delicious, authentic Nigerian dishes that are sure to satisfy your cravings. Come join us on a journey of taste and experience the best that Nigerian cuisine has to offer.
